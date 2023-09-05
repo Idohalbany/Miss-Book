@@ -1,0 +1,139 @@
+.book-details {
+  background-color: #e9e9e9;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 2em;
+}
+
+.book-details h2,
+.book-details h3,
+.book-details h4 {
+  margin-bottom: 10px;
+}
+
+.sale {
+  color: green;
+  font-weight: bold;
+}
+
+.book-details img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 40px auto;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.rating-method {
+  font-size: 1.1rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 5px;
+}
+
+select {
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reviews-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.reviews-table th,
+.reviews-table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.reviews-table th {
+  color: #333;
+}
+
+.reviews-table tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.book-details button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  flex-direction: column;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.book-details button:hover {
+  background-color: #0056b3;
+}
+
+.book-details button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.long-text {
+  text-align: center;
+  margin: 40px auto;
+  padding: 0 10px;
+}
+
+.long-text p {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.long-text button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.long-text button:hover {
+  background-color: #555;
+}
+
+.btns-bottom {
+  position: relative;
+  left: 45%;
+  top: 10px;
+}
+
+.book-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .book-details {
+    padding: 15px;
+  }
+
+  .book-details h2,
+  .book-details h3,
+  .book-details h4 {
+    font-size: 16px;
+  }
+
+  .book-details img {
+    margin: 20px auto;
+  }
+}

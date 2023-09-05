@@ -1,0 +1,45 @@
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.app-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app-nav a {
+  text-decoration: none;
+  color: #555;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.app-nav a:hover,
+.app-nav a.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.app-nav li {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem 1rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+}
